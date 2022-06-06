@@ -57,7 +57,6 @@ function checkZip(input) {
     }
 }
 
-
 //check required fields
 function checkRequired(inputArr) {
   inputArr.forEach(function (input) {
@@ -106,4 +105,14 @@ form.addEventListener('submit', function (e) {
   
 
 });
+function showAlert() {
+    var myText = "Do you like to Submit the form!";
+    if (confirm(myText) == true){
+        alert("Submitted Successfully");
+    } else {
+
+    }
+}
+
+
 
